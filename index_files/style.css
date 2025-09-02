@@ -24,7 +24,6 @@ canvas {
   image-rendering: crisp-edges;
   image-rendering: pixelated;
 
-  /* 👇 added for smooth grow-in */
   transform: scale(0);
   opacity: 0;
   transform-origin: center center;
@@ -70,6 +69,5 @@ audio {
   }
 }
 .cue-in {
-  animation: Cue-In 2s ease-in-out forwards; /* ensure it stays full size */
+  animation: Cue-In 2s ease-in-out forwards; 
 }
-/*# sourceMappingURL=style.e5beaf9c.css.map */
