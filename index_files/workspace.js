@@ -50,7 +50,7 @@ r.addEventListener("play",function(){
         smileBtn.style.zIndex="9999";
 
         smileBtn.addEventListener("click",function(){
-            window.open("https://www.attiremonk.com/products/congo-qr-collect","_blank");
+            window.open("https://www.attiremonk.com/products/conga-qr-collect","_blank");
         });
 
         document.body.appendChild(smileBtn);
